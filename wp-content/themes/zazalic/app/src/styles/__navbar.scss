@@ -1,0 +1,48 @@
+.navbar-fixed {
+  background: rgba($primary,.75);
+  box-shadow: 0 5px 5px #000;
+  left: 0;
+  margin: 0!important;
+  position: fixed!important;
+  top: 0;
+  width: 100%;
+  z-index: $z-index-max;
+
+  .navbar-brand{
+    margin: 0!important;
+    padding: 0!important;
+    img{
+      margin: 10px 0!important;
+      padding: 0!important;
+      height: 50px;
+    }
+  }
+  .navbar-toggler{
+    font-size: 30px;
+  }
+
+  .navbar-collapse{
+    .navbar-nav{
+      .nav-item{
+        font-size: 1.5em!important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px){
+
+    .navbar-brand{
+      img{
+        height: 80px;
+      }
+    }
+
+  }
+
+
+}
+
+.main-menu-icon{
+  font-size: 30px;
+  cursor: pointer;
+}

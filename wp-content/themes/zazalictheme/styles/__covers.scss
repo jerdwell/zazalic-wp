@@ -84,3 +84,15 @@
   }
 
 }
+
+.pages-heading{
+  padding: 120px 5%;
+  padding-top: 180px;
+  text-align: center;
+  width: 100%;
+  @media screen and(min-width:768px){
+    h1 {
+      font-size: 3.5em!important;
+    }
+  }
+}

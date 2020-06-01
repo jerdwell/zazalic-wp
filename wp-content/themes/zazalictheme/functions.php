@@ -35,7 +35,7 @@ function zazalic_register_my_menus() {
 }
 add_action( 'init', 'zazalic_register_my_menus' );
 
-function register_navwalker(){
-	require_once get_template_directory() . '/template-parts/navbar.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );
+// function register_navwalker(){
+// 	require_once get_template_directory() . '/template-parts/navbar.php';
+// }
+// add_action( 'after_setup_theme', 'register_navwalker' );

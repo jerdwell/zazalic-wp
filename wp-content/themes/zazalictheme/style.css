@@ -213,6 +213,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     height: 200px !important;
     width: 200px !important; }
 
+.error-template {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+  min-height: 80vh; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

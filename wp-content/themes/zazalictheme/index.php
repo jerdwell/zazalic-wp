@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
   <?php
-  $page = get_page(29, $output = OBJECT);
-  echo $page->post_content;
+    the_content();
   ?>
 
 <?php get_footer(); ?>

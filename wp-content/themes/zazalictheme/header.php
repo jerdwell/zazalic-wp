@@ -32,7 +32,7 @@
         <i class="fa fa-bars text-light"></i>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
             <a href="/productos" class="nav-link text-light">Productos</a>
@@ -44,7 +44,20 @@
             <a href="#" class="nav-link text-light">Contacto</a>
           </li>
         </ul>
-      </div>
+      </div> -->
+
+      <?php
+        wp_nav_menu( array(
+          'theme_location'  => 'main-menu',
+          'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+          'container'       => 'div',
+          'container_class' => 'collapse navbar-collapse',
+          'container_id'    => 'bs-example-navbar-collapse-1',
+          'menu_class'      => 'navbar-nav ml-lg-auto text-light',
+          'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+          'walker'          => new WP_Bootstrap_Navwalker(),
+        ));
+      ?>
 
     </div>
   </div>

@@ -177,8 +177,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-size: 30px; }
   .navbar-fixed .navbar-collapse .navbar-nav {
     padding: 0px 5%; }
-    .navbar-fixed .navbar-collapse .navbar-nav .nav-item {
+    .navbar-fixed .navbar-collapse .navbar-nav .menu-item {
       font-size: 1.5em !important; }
+      .navbar-fixed .navbar-collapse .navbar-nav .menu-item a {
+        color: #D6EEF4 !important; }
   @media screen and (min-width: 768px) {
     .navbar-fixed .navbar-brand img, .navbar-fixed .custom-logo-link img {
       height: 80px; } }
